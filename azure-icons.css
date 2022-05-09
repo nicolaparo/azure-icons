@@ -1,951 +1,958 @@
-.az-icon-xl {
-    width: 64px;
-    height: 64px;
-}
-.az-icon-lg {
-    width: 48px;
-    height: 48px;
-}
 .az-icon {
-    width: 32px;
-    height: 32px;
-}
-.az-icon-sm {
-    width: 16px;
-    height: 16px;
-}
-.az-icon {
+    width: 1em;
+    height: 1em;
+    margin-bottom: -0.2em;
     background-size: contain;
     background-position: center;
+    display: inline-block;
+}
+.az-icon.az-icon-xl {
+    width: 1.5em;
+    height: 1.5em;
+    margin-bottom: -0.4em;
+}
+.az-icon.az-icon-lg {
+    width: 1.25em;
+    height: 1.25em;
+    margin-bottom: -0.3em;
+}
+.az-icon.az-icon-md {
+    width: 1em;
+    height: 1em;
+}
+.az-icon.az-icon-sm {
+    width: 0.75em;
+    height: 0.75em;
+    margin-bottom: -0.1em;
 }
 
-.az-icon .icon-abs-member {
+.az-icon.az-icon-abs-member {
     background-image: url(64/icon-abs-member.png)
 }
-.az-icon .icon-active-directory-connect-health {
+.az-icon.az-icon-active-directory-connect-health {
     background-image: url(64/icon-active-directory-connect-health.png)
 }
-.az-icon .icon-activity-log {
+.az-icon.az-icon-activity-log {
     background-image: url(64/icon-activity-log.png)
 }
-.az-icon .icon-advisor {
+.az-icon.az-icon-advisor {
     background-image: url(64/icon-advisor.png)
 }
-.az-icon .icon-alerts {
+.az-icon.az-icon-alerts {
     background-image: url(64/icon-alerts.png)
 }
-.az-icon .icon-all-resources {
+.az-icon.az-icon-all-resources {
     background-image: url(64/icon-all-resources.png)
 }
-.az-icon .icon-analysis-services {
+.az-icon.az-icon-analysis-services {
     background-image: url(64/icon-analysis-services.png)
 }
-.az-icon .icon-api-management-services {
+.az-icon.az-icon-api-management-services {
     background-image: url(64/icon-api-management-services.png)
 }
-.az-icon .icon-app-registrations {
+.az-icon.az-icon-app-registrations {
     background-image: url(64/icon-app-registrations.png)
 }
-.az-icon .icon-app-service-certificates {
+.az-icon.az-icon-app-service-certificates {
     background-image: url(64/icon-app-service-certificates.png)
 }
-.az-icon .icon-app-service-domains {
+.az-icon.az-icon-app-service-domains {
     background-image: url(64/icon-app-service-domains.png)
 }
-.az-icon .icon-app-service-environments {
+.az-icon.az-icon-app-service-environments {
     background-image: url(64/icon-app-service-environments.png)
 }
-.az-icon .icon-app-service-plans {
+.az-icon.az-icon-app-service-plans {
     background-image: url(64/icon-app-service-plans.png)
 }
-.az-icon .icon-app-services {
+.az-icon.az-icon-app-services {
     background-image: url(64/icon-app-services.png)
 }
-.az-icon .icon-application-gateways {
+.az-icon.az-icon-application-gateways {
     background-image: url(64/icon-application-gateways.png)
 }
-.az-icon .icon-application-insights {
+.az-icon.az-icon-application-insights {
     background-image: url(64/icon-application-insights.png)
 }
-.az-icon .icon-application-security-groups {
+.az-icon.az-icon-application-security-groups {
     background-image: url(64/icon-application-security-groups.png)
 }
-.az-icon .icon-automanaged-vm {
+.az-icon.az-icon-automanaged-vm {
     background-image: url(64/icon-automanaged-vm.png)
 }
-.az-icon .icon-automation-accounts {
+.az-icon.az-icon-automation-accounts {
     background-image: url(64/icon-automation-accounts.png)
 }
-.az-icon .icon-availability-sets {
+.az-icon.az-icon-availability-sets {
     background-image: url(64/icon-availability-sets.png)
 }
-.az-icon .icon-avs {
+.az-icon.az-icon-avs {
     background-image: url(64/icon-avs.png)
 }
-.az-icon .icon-azure-active-directory {
+.az-icon.az-icon-azure-active-directory {
     background-image: url(64/icon-azure-active-directory.png)
 }
-.az-icon .icon-azure-ad-b2c {
+.az-icon.az-icon-azure-ad-b2c {
     background-image: url(64/icon-azure-ad-b2c.png)
 }
-.az-icon .icon-azure-ad-domain-services {
+.az-icon.az-icon-azure-ad-domain-services {
     background-image: url(64/icon-azure-ad-domain-services.png)
 }
-.az-icon .icon-azure-ad-identity-protection {
+.az-icon.az-icon-azure-ad-identity-protection {
     background-image: url(64/icon-azure-ad-identity-protection.png)
 }
-.az-icon .icon-azure-ad-roles-and-administrators {
+.az-icon.az-icon-azure-ad-roles-and-administrators {
     background-image: url(64/icon-azure-ad-roles-and-administrators.png)
 }
-.az-icon .icon-azure-api-for-fhir {
+.az-icon.az-icon-azure-api-for-fhir {
     background-image: url(64/icon-azure-api-for-fhir.png)
 }
-.az-icon .icon-azure-arc {
+.az-icon.az-icon-azure-arc {
     background-image: url(64/icon-azure-arc.png)
 }
-.az-icon .icon-azure-backup-center {
+.az-icon.az-icon-azure-backup-center {
     background-image: url(64/icon-azure-backup-center.png)
 }
-.az-icon .icon-azure-blockchain-service {
+.az-icon.az-icon-azure-blockchain-service {
     background-image: url(64/icon-azure-blockchain-service.png)
 }
-.az-icon .icon-azure-cloud-shell {
+.az-icon.az-icon-azure-cloud-shell {
     background-image: url(64/icon-azure-cloud-shell.png)
 }
-.az-icon .icon-azure-cosmos-db {
+.az-icon.az-icon-azure-cosmos-db {
     background-image: url(64/icon-azure-cosmos-db.png)
 }
-.az-icon .icon-azure-data-catalog {
+.az-icon.az-icon-azure-data-catalog {
     background-image: url(64/icon-azure-data-catalog.png)
 }
-.az-icon .icon-azure-data-explorer-clusters {
+.az-icon.az-icon-azure-data-explorer-clusters {
     background-image: url(64/icon-azure-data-explorer-clusters.png)
 }
-.az-icon .icon-azure-database-mariadb-server {
+.az-icon.az-icon-azure-database-mariadb-server {
     background-image: url(64/icon-azure-database-mariadb-server.png)
 }
-.az-icon .icon-azure-database-migration-services {
+.az-icon.az-icon-azure-database-migration-services {
     background-image: url(64/icon-azure-database-migration-services.png)
 }
-.az-icon .icon-azure-database-mysql-server {
+.az-icon.az-icon-azure-database-mysql-server {
     background-image: url(64/icon-azure-database-mysql-server.png)
 }
-.az-icon .icon-azure-database-postgresql-server {
+.az-icon.az-icon-azure-database-postgresql-server {
     background-image: url(64/icon-azure-database-postgresql-server.png)
 }
-.az-icon .icon-azure-databricks {
+.az-icon.az-icon-azure-databricks {
     background-image: url(64/icon-azure-databricks.png)
 }
-.az-icon .icon-azure-defender {
+.az-icon.az-icon-azure-defender {
     background-image: url(64/icon-azure-defender.png)
 }
-.az-icon .icon-azure-devops {
+.az-icon.az-icon-azure-devops {
     background-image: url(64/icon-azure-devops.png)
 }
-.az-icon .icon-azure-firewall-manager {
+.az-icon.az-icon-azure-firewall-manager {
     background-image: url(64/icon-azure-firewall-manager.png)
 }
-.az-icon .icon-azure-hcp-cache {
+.az-icon.az-icon-azure-hcp-cache {
     background-image: url(64/icon-azure-hcp-cache.png)
 }
-.az-icon .icon-azure-lighthouse {
+.az-icon.az-icon-azure-lighthouse {
     background-image: url(64/icon-azure-lighthouse.png)
 }
-.az-icon .icon-azure-maps-accounts {
+.az-icon.az-icon-azure-maps-accounts {
     background-image: url(64/icon-azure-maps-accounts.png)
 }
-.az-icon .icon-azure-media-service {
+.az-icon.az-icon-azure-media-service {
     background-image: url(64/icon-azure-media-service.png)
 }
-.az-icon .icon-azure-migrate {
+.az-icon.az-icon-azure-migrate {
     background-image: url(64/icon-azure-migrate.png)
 }
-.az-icon .icon-azure-netapp-files {
+.az-icon.az-icon-azure-netapp-files {
     background-image: url(64/icon-azure-netapp-files.png)
 }
-.az-icon .icon-azure-sentinel {
+.az-icon.az-icon-azure-sentinel {
     background-image: url(64/icon-azure-sentinel.png)
 }
-.az-icon .icon-azure-sphere {
+.az-icon.az-icon-azure-sphere {
     background-image: url(64/icon-azure-sphere.png)
 }
-.az-icon .icon-azure-spring-cloud {
+.az-icon.az-icon-azure-spring-cloud {
     background-image: url(64/icon-azure-spring-cloud.png)
 }
-.az-icon .icon-azure-sql-server-stretch-databases {
+.az-icon.az-icon-azure-sql-server-stretch-databases {
     background-image: url(64/icon-azure-sql-server-stretch-databases.png)
 }
-.az-icon .icon-azure-sql-vm {
+.az-icon.az-icon-azure-sql-vm {
     background-image: url(64/icon-azure-sql-vm.png)
 }
-.az-icon .icon-azure-sql {
+.az-icon.az-icon-azure-sql {
     background-image: url(64/icon-azure-sql.png)
 }
-.az-icon .icon-azure-stack-edge {
+.az-icon.az-icon-azure-stack-edge {
     background-image: url(64/icon-azure-stack-edge.png)
 }
-.az-icon .icon-azure-stack {
+.az-icon.az-icon-azure-stack {
     background-image: url(64/icon-azure-stack.png)
 }
-.az-icon .icon-azure-synapse-analytics {
+.az-icon.az-icon-azure-synapse-analytics {
     background-image: url(64/icon-azure-synapse-analytics.png)
 }
-.az-icon .icon-azure-token-service {
+.az-icon.az-icon-azure-token-service {
     background-image: url(64/icon-azure-token-service.png)
 }
-.az-icon .icon-azure-workbooks {
+.az-icon.az-icon-azure-workbooks {
     background-image: url(64/icon-azure-workbooks.png)
 }
-.az-icon .icon-backlog {
+.az-icon.az-icon-backlog {
     background-image: url(64/icon-backlog.png)
 }
-.az-icon .icon-batch-accounts {
+.az-icon.az-icon-batch-accounts {
     background-image: url(64/icon-batch-accounts.png)
 }
-.az-icon .icon-biz-talk {
+.az-icon.az-icon-biz-talk {
     background-image: url(64/icon-biz-talk.png)
 }
-.az-icon .icon-blob-block {
+.az-icon.az-icon-blob-block {
     background-image: url(64/icon-blob-block.png)
 }
-.az-icon .icon-blob-page {
+.az-icon.az-icon-blob-page {
     background-image: url(64/icon-blob-page.png)
 }
-.az-icon .icon-blueprints {
+.az-icon.az-icon-blueprints {
     background-image: url(64/icon-blueprints.png)
 }
-.az-icon .icon-bot-services {
+.az-icon.az-icon-bot-services {
     background-image: url(64/icon-bot-services.png)
 }
-.az-icon .icon-branch {
+.az-icon.az-icon-branch {
     background-image: url(64/icon-branch.png)
 }
-.az-icon .icon-browser {
+.az-icon.az-icon-browser {
     background-image: url(64/icon-browser.png)
 }
-.az-icon .icon-bug {
+.az-icon.az-icon-bug {
     background-image: url(64/icon-bug.png)
 }
-.az-icon .icon-builds {
+.az-icon.az-icon-builds {
     background-image: url(64/icon-builds.png)
 }
-.az-icon .icon-cache-redis {
+.az-icon.az-icon-cache-redis {
     background-image: url(64/icon-cache-redis.png)
 }
-.az-icon .icon-cache {
+.az-icon.az-icon-cache {
     background-image: url(64/icon-cache.png)
 }
-.az-icon .icon-capacity {
+.az-icon.az-icon-capacity {
     background-image: url(64/icon-capacity.png)
 }
-.az-icon .icon-cdn-profiles {
+.az-icon.az-icon-cdn-profiles {
     background-image: url(64/icon-cdn-profiles.png)
 }
-.az-icon .icon-code {
+.az-icon.az-icon-code {
     background-image: url(64/icon-code.png)
 }
-.az-icon .icon-cognitive-services {
+.az-icon.az-icon-cognitive-services {
     background-image: url(64/icon-cognitive-services.png)
 }
-.az-icon .icon-commit {
+.az-icon.az-icon-commit {
     background-image: url(64/icon-commit.png)
 }
-.az-icon .icon-compliance {
+.az-icon.az-icon-compliance {
     background-image: url(64/icon-compliance.png)
 }
-.az-icon .icon-conditional-access {
+.az-icon.az-icon-conditional-access {
     background-image: url(64/icon-conditional-access.png)
 }
-.az-icon .icon-connections {
+.az-icon.az-icon-connections {
     background-image: url(64/icon-connections.png)
 }
-.az-icon .icon-consortium {
+.az-icon.az-icon-consortium {
     background-image: url(64/icon-consortium.png)
 }
-.az-icon .icon-container-instances {
+.az-icon.az-icon-container-instances {
     background-image: url(64/icon-container-instances.png)
 }
-.az-icon .icon-container-registries {
+.az-icon.az-icon-container-registries {
     background-image: url(64/icon-container-registries.png)
 }
-.az-icon .icon-controls-horizontal {
+.az-icon.az-icon-controls-horizontal {
     background-image: url(64/icon-controls-horizontal.png)
 }
-.az-icon .icon-controls {
+.az-icon.az-icon-controls {
     background-image: url(64/icon-controls.png)
 }
-.az-icon .icon-cost-alerts {
+.az-icon.az-icon-cost-alerts {
     background-image: url(64/icon-cost-alerts.png)
 }
-.az-icon .icon-cost-analysis {
+.az-icon.az-icon-cost-analysis {
     background-image: url(64/icon-cost-analysis.png)
 }
-.az-icon .icon-cost-budgets {
+.az-icon.az-icon-cost-budgets {
     background-image: url(64/icon-cost-budgets.png)
 }
-.az-icon .icon-cost-management-and-billing {
+.az-icon.az-icon-cost-management-and-billing {
     background-image: url(64/icon-cost-management-and-billing.png)
 }
-.az-icon .icon-cost-management {
+.az-icon.az-icon-cost-management {
     background-image: url(64/icon-cost-management.png)
 }
-.az-icon .icon-counter {
+.az-icon.az-icon-counter {
     background-image: url(64/icon-counter.png)
 }
-.az-icon .icon-cplusplus {
+.az-icon.az-icon-cplusplus {
     background-image: url(64/icon-cplusplus.png)
 }
-.az-icon .icon-csharp {
+.az-icon.az-icon-csharp {
     background-image: url(64/icon-csharp.png)
 }
-.az-icon .icon-cubes {
+.az-icon.az-icon-cubes {
     background-image: url(64/icon-cubes.png)
 }
-.az-icon .icon-dashboard {
+.az-icon.az-icon-dashboard {
     background-image: url(64/icon-dashboard.png)
 }
-.az-icon .icon-data-box-edge {
+.az-icon.az-icon-data-box-edge {
     background-image: url(64/icon-data-box-edge.png)
 }
-.az-icon .icon-data-box {
+.az-icon.az-icon-data-box {
     background-image: url(64/icon-data-box.png)
 }
-.az-icon .icon-data-factory {
+.az-icon.az-icon-data-factory {
     background-image: url(64/icon-data-factory.png)
 }
-.az-icon .icon-data-lake-storage-gen1 {
+.az-icon.az-icon-data-lake-storage-gen1 {
     background-image: url(64/icon-data-lake-storage-gen1.png)
 }
-.az-icon .icon-data-lake-store-gen1 {
+.az-icon.az-icon-data-lake-store-gen1 {
     background-image: url(64/icon-data-lake-store-gen1.png)
 }
-.az-icon .icon-data-share-invitations {
+.az-icon.az-icon-data-share-invitations {
     background-image: url(64/icon-data-share-invitations.png)
 }
-.az-icon .icon-data-shares {
+.az-icon.az-icon-data-shares {
     background-image: url(64/icon-data-shares.png)
 }
-.az-icon .icon-ddos-protection-plans {
+.az-icon.az-icon-ddos-protection-plans {
     background-image: url(64/icon-ddos-protection-plans.png)
 }
-.az-icon .icon-detonation {
+.az-icon.az-icon-detonation {
     background-image: url(64/icon-detonation.png)
 }
-.az-icon .icon-dev-console {
+.az-icon.az-icon-dev-console {
     background-image: url(64/icon-dev-console.png)
 }
-.az-icon .icon-device-provisioning-services {
+.az-icon.az-icon-device-provisioning-services {
     background-image: url(64/icon-device-provisioning-services.png)
 }
-.az-icon .icon-device-security-apple {
+.az-icon.az-icon-device-security-apple {
     background-image: url(64/icon-device-security-apple.png)
 }
-.az-icon .icon-device-security-google {
+.az-icon.az-icon-device-security-google {
     background-image: url(64/icon-device-security-google.png)
 }
-.az-icon .icon-device-security-windows {
+.az-icon.az-icon-device-security-windows {
     background-image: url(64/icon-device-security-windows.png)
 }
-.az-icon .icon-devtest-labs {
+.az-icon.az-icon-devtest-labs {
     background-image: url(64/icon-devtest-labs.png)
 }
-.az-icon .icon-diagnostics-settings {
+.az-icon.az-icon-diagnostics-settings {
     background-image: url(64/icon-diagnostics-settings.png)
 }
-.az-icon .icon-digital-twins {
+.az-icon.az-icon-digital-twins {
     background-image: url(64/icon-digital-twins.png)
 }
-.az-icon .icon-disk-encryption-sets {
+.az-icon.az-icon-disk-encryption-sets {
     background-image: url(64/icon-disk-encryption-sets.png)
 }
-.az-icon .icon-disks-snapshots {
+.az-icon.az-icon-disks-snapshots {
     background-image: url(64/icon-disks-snapshots.png)
 }
-.az-icon .icon-disks {
+.az-icon.az-icon-disks {
     background-image: url(64/icon-disks.png)
 }
-.az-icon .icon-dns-zones {
+.az-icon.az-icon-dns-zones {
     background-image: url(64/icon-dns-zones.png)
 }
-.az-icon .icon-download {
+.az-icon.az-icon-download {
     background-image: url(64/icon-download.png)
 }
-.az-icon .icon-education {
+.az-icon.az-icon-education {
     background-image: url(64/icon-education.png)
 }
-.az-icon .icon-elastic-job-agents {
+.az-icon.az-icon-elastic-job-agents {
     background-image: url(64/icon-elastic-job-agents.png)
 }
-.az-icon .icon-enterprise-applications {
+.az-icon.az-icon-enterprise-applications {
     background-image: url(64/icon-enterprise-applications.png)
 }
-.az-icon .icon-error {
+.az-icon.az-icon-error {
     background-image: url(64/icon-error.png)
 }
-.az-icon .icon-event-grid-domains {
+.az-icon.az-icon-event-grid-domains {
     background-image: url(64/icon-event-grid-domains.png)
 }
-.az-icon .icon-event-grid-subscriptions {
+.az-icon.az-icon-event-grid-subscriptions {
     background-image: url(64/icon-event-grid-subscriptions.png)
 }
-.az-icon .icon-event-grid-topics {
+.az-icon.az-icon-event-grid-topics {
     background-image: url(64/icon-event-grid-topics.png)
 }
-.az-icon .icon-event-hub-clusters {
+.az-icon.az-icon-event-hub-clusters {
     background-image: url(64/icon-event-hub-clusters.png)
 }
-.az-icon .icon-event-hubs {
+.az-icon.az-icon-event-hubs {
     background-image: url(64/icon-event-hubs.png)
 }
-.az-icon .icon-expressroute-circuits {
+.az-icon.az-icon-expressroute-circuits {
     background-image: url(64/icon-expressroute-circuits.png)
 }
-.az-icon .icon-expressroute-direct {
+.az-icon.az-icon-expressroute-direct {
     background-image: url(64/icon-expressroute-direct.png)
 }
-.az-icon .icon-extendedsecurityupdates {
+.az-icon.az-icon-extendedsecurityupdates {
     background-image: url(64/icon-extendedsecurityupdates.png)
 }
-.az-icon .icon-extensions {
+.az-icon.az-icon-extensions {
     background-image: url(64/icon-extensions.png)
 }
-.az-icon .icon-file {
+.az-icon.az-icon-file {
     background-image: url(64/icon-file.png)
 }
-.az-icon .icon-files {
+.az-icon.az-icon-files {
     background-image: url(64/icon-files.png)
 }
-.az-icon .icon-firewalls {
+.az-icon.az-icon-firewalls {
     background-image: url(64/icon-firewalls.png)
 }
-.az-icon .icon-folder-blank {
+.az-icon.az-icon-folder-blank {
     background-image: url(64/icon-folder-blank.png)
 }
-.az-icon .icon-folder-website {
+.az-icon.az-icon-folder-website {
     background-image: url(64/icon-folder-website.png)
 }
-.az-icon .icon-free-services {
+.az-icon.az-icon-free-services {
     background-image: url(64/icon-free-services.png)
 }
-.az-icon .icon-front-doors {
+.az-icon.az-icon-front-doors {
     background-image: url(64/icon-front-doors.png)
 }
-.az-icon .icon-ftp {
+.az-icon.az-icon-ftp {
     background-image: url(64/icon-ftp.png)
 }
-.az-icon .icon-function-apps {
+.az-icon.az-icon-function-apps {
     background-image: url(64/icon-function-apps.png)
 }
-.az-icon .icon-gear {
+.az-icon.az-icon-gear {
     background-image: url(64/icon-gear.png)
 }
-.az-icon .icon-globe-error {
+.az-icon.az-icon-globe-error {
     background-image: url(64/icon-globe-error.png)
 }
-.az-icon .icon-globe-success {
+.az-icon.az-icon-globe-success {
     background-image: url(64/icon-globe-success.png)
 }
-.az-icon .icon-globe-warning {
+.az-icon.az-icon-globe-warning {
     background-image: url(64/icon-globe-warning.png)
 }
-.az-icon .icon-globe {
+.az-icon.az-icon-globe {
     background-image: url(64/icon-globe.png)
 }
-.az-icon .icon-groups {
+.az-icon.az-icon-groups {
     background-image: url(64/icon-groups.png)
 }
-.az-icon .icon-guide {
+.az-icon.az-icon-guide {
     background-image: url(64/icon-guide.png)
 }
-.az-icon .icon-hd-insight-clusters {
+.az-icon.az-icon-hd-insight-clusters {
     background-image: url(64/icon-hd-insight-clusters.png)
 }
-.az-icon .icon-heart {
+.az-icon.az-icon-heart {
     background-image: url(64/icon-heart.png)
 }
-.az-icon .icon-help-and-support {
+.az-icon.az-icon-help-and-support {
     background-image: url(64/icon-help-and-support.png)
 }
-.az-icon .icon-identity-governance {
+.az-icon.az-icon-identity-governance {
     background-image: url(64/icon-identity-governance.png)
 }
-.az-icon .icon-image-definitions {
+.az-icon.az-icon-image-definitions {
     background-image: url(64/icon-image-definitions.png)
 }
-.az-icon .icon-image-versions {
+.az-icon.az-icon-image-versions {
     background-image: url(64/icon-image-versions.png)
 }
-.az-icon .icon-image {
+.az-icon.az-icon-image {
     background-image: url(64/icon-image.png)
 }
-.az-icon .icon-images {
+.az-icon.az-icon-images {
     background-image: url(64/icon-images.png)
 }
-.az-icon .icon-import-export-jobs {
+.az-icon.az-icon-import-export-jobs {
     background-image: url(64/icon-import-export-jobs.png)
 }
-.az-icon .icon-information {
+.az-icon.az-icon-information {
     background-image: url(64/icon-information.png)
 }
-.az-icon .icon-infrastructure-backup {
+.az-icon.az-icon-infrastructure-backup {
     background-image: url(64/icon-infrastructure-backup.png)
 }
-.az-icon .icon-input-output {
+.az-icon.az-icon-input-output {
     background-image: url(64/icon-input-output.png)
 }
-.az-icon .icon-instance-pools {
+.az-icon.az-icon-instance-pools {
     background-image: url(64/icon-instance-pools.png)
 }
-.az-icon .icon-integration-accounts {
+.az-icon.az-icon-integration-accounts {
     background-image: url(64/icon-integration-accounts.png)
 }
-.az-icon .icon-internet-analyzer-profiles {
+.az-icon.az-icon-internet-analyzer-profiles {
     background-image: url(64/icon-internet-analyzer-profiles.png)
 }
-.az-icon .icon-intune-for-education {
+.az-icon.az-icon-intune-for-education {
     background-image: url(64/icon-intune-for-education.png)
 }
-.az-icon .icon-intune {
+.az-icon.az-icon-intune {
     background-image: url(64/icon-intune.png)
 }
-.az-icon .icon-iot-central-applications {
+.az-icon.az-icon-iot-central-applications {
     background-image: url(64/icon-iot-central-applications.png)
 }
-.az-icon .icon-iot-edge {
+.az-icon.az-icon-iot-edge {
     background-image: url(64/icon-iot-edge.png)
 }
-.az-icon .icon-iot-hub {
+.az-icon.az-icon-iot-hub {
     background-image: url(64/icon-iot-hub.png)
 }
-.az-icon .icon-ip-groups {
+.az-icon.az-icon-ip-groups {
     background-image: url(64/icon-ip-groups.png)
 }
-.az-icon .icon-java {
+.az-icon.az-icon-java {
     background-image: url(64/icon-java.png)
 }
-.az-icon .icon-javascript {
+.az-icon.az-icon-javascript {
     background-image: url(64/icon-javascript.png)
 }
-.az-icon .icon-journey-hub {
+.az-icon.az-icon-journey-hub {
     background-image: url(64/icon-journey-hub.png)
 }
-.az-icon .icon-key-vaults {
+.az-icon.az-icon-key-vaults {
     background-image: url(64/icon-key-vaults.png)
 }
-.az-icon .icon-kubernetes-services {
+.az-icon.az-icon-kubernetes-services {
     background-image: url(64/icon-kubernetes-services.png)
 }
-.az-icon .icon-lab-services {
+.az-icon.az-icon-lab-services {
     background-image: url(64/icon-lab-services.png)
 }
-.az-icon .icon-launch-portal {
+.az-icon.az-icon-launch-portal {
     background-image: url(64/icon-launch-portal.png)
 }
-.az-icon .icon-learn {
+.az-icon.az-icon-learn {
     background-image: url(64/icon-learn.png)
 }
-.az-icon .icon-load-balancers {
+.az-icon.az-icon-load-balancers {
     background-image: url(64/icon-load-balancers.png)
 }
-.az-icon .icon-load-test {
+.az-icon.az-icon-load-test {
     background-image: url(64/icon-load-test.png)
 }
-.az-icon .icon-local-network-gateways {
+.az-icon.az-icon-local-network-gateways {
     background-image: url(64/icon-local-network-gateways.png)
 }
-.az-icon .icon-location {
+.az-icon.az-icon-location {
     background-image: url(64/icon-location.png)
 }
-.az-icon .icon-log-analytics-workspaces {
+.az-icon.az-icon-log-analytics-workspaces {
     background-image: url(64/icon-log-analytics-workspaces.png)
 }
-.az-icon .icon-log-streaming {
+.az-icon.az-icon-log-streaming {
     background-image: url(64/icon-log-streaming.png)
 }
-.az-icon .icon-logic-apps {
+.az-icon.az-icon-logic-apps {
     background-image: url(64/icon-logic-apps.png)
 }
-.az-icon .icon-machine-learning-studio-web-service-plans {
+.az-icon.az-icon-machine-learning-studio-web-service-plans {
     background-image: url(64/icon-machine-learning-studio-web-service-plans.png)
 }
-.az-icon .icon-machine-learning-studio-workspaces {
+.az-icon.az-icon-machine-learning-studio-workspaces {
     background-image: url(64/icon-machine-learning-studio-workspaces.png)
 }
-.az-icon .icon-machinesazurearc {
+.az-icon.az-icon-machinesazurearc {
     background-image: url(64/icon-machinesazurearc.png)
 }
-.az-icon .icon-managed-applications-center {
+.az-icon.az-icon-managed-applications-center {
     background-image: url(64/icon-managed-applications-center.png)
 }
-.az-icon .icon-managed-database {
+.az-icon.az-icon-managed-database {
     background-image: url(64/icon-managed-database.png)
 }
-.az-icon .icon-managed-identities {
+.az-icon.az-icon-managed-identities {
     background-image: url(64/icon-managed-identities.png)
 }
-.az-icon .icon-management-groups {
+.az-icon.az-icon-management-groups {
     background-image: url(64/icon-management-groups.png)
 }
-.az-icon .icon-management-portal {
+.az-icon.az-icon-management-portal {
     background-image: url(64/icon-management-portal.png)
 }
-.az-icon .icon-marketplace {
+.az-icon.az-icon-marketplace {
     background-image: url(64/icon-marketplace.png)
 }
-.az-icon .icon-media-file {
+.az-icon.az-icon-media-file {
     background-image: url(64/icon-media-file.png)
 }
-.az-icon .icon-media {
+.az-icon.az-icon-media {
     background-image: url(64/icon-media.png)
 }
-.az-icon .icon-mesh-applications {
+.az-icon.az-icon-mesh-applications {
     background-image: url(64/icon-mesh-applications.png)
 }
-.az-icon .icon-metrics {
+.az-icon.az-icon-metrics {
     background-image: url(64/icon-metrics.png)
 }
-.az-icon .icon-mobile-engagement {
+.az-icon.az-icon-mobile-engagement {
     background-image: url(64/icon-mobile-engagement.png)
 }
-.az-icon .icon-mobile {
+.az-icon.az-icon-mobile {
     background-image: url(64/icon-mobile.png)
 }
-.az-icon .icon-module {
+.az-icon.az-icon-module {
     background-image: url(64/icon-module.png)
 }
-.az-icon .icon-monitor {
+.az-icon.az-icon-monitor {
     background-image: url(64/icon-monitor.png)
 }
-.az-icon .icon-multi-tenancy {
+.az-icon.az-icon-multi-tenancy {
     background-image: url(64/icon-multi-tenancy.png)
 }
-.az-icon .icon-my-customers {
+.az-icon.az-icon-my-customers {
     background-image: url(64/icon-my-customers.png)
 }
-.az-icon .icon-nat {
+.az-icon.az-icon-nat {
     background-image: url(64/icon-nat.png)
 }
-.az-icon .icon-network-interfaces {
+.az-icon.az-icon-network-interfaces {
     background-image: url(64/icon-network-interfaces.png)
 }
-.az-icon .icon-network-security-groups {
+.az-icon.az-icon-network-security-groups {
     background-image: url(64/icon-network-security-groups.png)
 }
-.az-icon .icon-network-watcher {
+.az-icon.az-icon-network-watcher {
     background-image: url(64/icon-network-watcher.png)
 }
-.az-icon .icon-notification-hub-namespaces {
+.az-icon.az-icon-notification-hub-namespaces {
     background-image: url(64/icon-notification-hub-namespaces.png)
 }
-.az-icon .icon-notification-hubs {
+.az-icon.az-icon-notification-hubs {
     background-image: url(64/icon-notification-hubs.png)
 }
-.az-icon .icon-offers {
+.az-icon.az-icon-offers {
     background-image: url(64/icon-offers.png)
 }
-.az-icon .icon-outbound-connection {
+.az-icon.az-icon-outbound-connection {
     background-image: url(64/icon-outbound-connection.png)
 }
-.az-icon .icon-partner-topic {
+.az-icon.az-icon-partner-topic {
     background-image: url(64/icon-partner-topic.png)
 }
-.az-icon .icon-peering-service {
+.az-icon.az-icon-peering-service {
     background-image: url(64/icon-peering-service.png)
 }
-.az-icon .icon-php {
+.az-icon.az-icon-php {
     background-image: url(64/icon-php.png)
 }
-.az-icon .icon-plans {
+.az-icon.az-icon-plans {
     background-image: url(64/icon-plans.png)
 }
-.az-icon .icon-policy {
+.az-icon.az-icon-policy {
     background-image: url(64/icon-policy.png)
 }
-.az-icon .icon-power-up {
+.az-icon.az-icon-power-up {
     background-image: url(64/icon-power-up.png)
 }
-.az-icon .icon-power {
+.az-icon.az-icon-power {
     background-image: url(64/icon-power.png)
 }
-.az-icon .icon-powershell {
+.az-icon.az-icon-powershell {
     background-image: url(64/icon-powershell.png)
 }
-.az-icon .icon-preview {
+.az-icon.az-icon-preview {
     background-image: url(64/icon-preview.png)
 }
-.az-icon .icon-private-link-hub {
+.az-icon.az-icon-private-link-hub {
     background-image: url(64/icon-private-link-hub.png)
 }
-.az-icon .icon-private-link-service {
+.az-icon.az-icon-private-link-service {
     background-image: url(64/icon-private-link-service.png)
 }
-.az-icon .icon-private-link {
+.az-icon.az-icon-private-link {
     background-image: url(64/icon-private-link.png)
 }
-.az-icon .icon-process-explorer {
+.az-icon.az-icon-process-explorer {
     background-image: url(64/icon-process-explorer.png)
 }
-.az-icon .icon-production-ready-database {
+.az-icon.az-icon-production-ready-database {
     background-image: url(64/icon-production-ready-database.png)
 }
-.az-icon .icon-proximity-placement-groups {
+.az-icon.az-icon-proximity-placement-groups {
     background-image: url(64/icon-proximity-placement-groups.png)
 }
-.az-icon .icon-public-ip-addresses {
+.az-icon.az-icon-public-ip-addresses {
     background-image: url(64/icon-public-ip-addresses.png)
 }
-.az-icon .icon-public-ip-prefixes {
+.az-icon.az-icon-public-ip-prefixes {
     background-image: url(64/icon-public-ip-prefixes.png)
 }
-.az-icon .icon-python {
+.az-icon.az-icon-python {
     background-image: url(64/icon-python.png)
 }
-.az-icon .icon-quickstart-center {
+.az-icon.az-icon-quickstart-center {
     background-image: url(64/icon-quickstart-center.png)
 }
-.az-icon .icon-recent {
+.az-icon.az-icon-recent {
     background-image: url(64/icon-recent.png)
 }
-.az-icon .icon-recovery-services-vaults {
+.az-icon.az-icon-recovery-services-vaults {
     background-image: url(64/icon-recovery-services-vaults.png)
 }
-.az-icon .icon-relays {
+.az-icon.az-icon-relays {
     background-image: url(64/icon-relays.png)
 }
-.az-icon .icon-remote-rendering {
+.az-icon.az-icon-remote-rendering {
     background-image: url(64/icon-remote-rendering.png)
 }
-.az-icon .icon-reservations {
+.az-icon.az-icon-reservations {
     background-image: url(64/icon-reservations.png)
 }
-.az-icon .icon-resource-explorer {
+.az-icon.az-icon-resource-explorer {
     background-image: url(64/icon-resource-explorer.png)
 }
-.az-icon .icon-resource-graph-explorer {
+.az-icon.az-icon-resource-graph-explorer {
     background-image: url(64/icon-resource-graph-explorer.png)
 }
-.az-icon .icon-resource-group-list {
+.az-icon.az-icon-resource-group-list {
     background-image: url(64/icon-resource-group-list.png)
 }
-.az-icon .icon-resource-groups {
+.az-icon.az-icon-resource-groups {
     background-image: url(64/icon-resource-groups.png)
 }
-.az-icon .icon-resource-linked {
+.az-icon.az-icon-resource-linked {
     background-image: url(64/icon-resource-linked.png)
 }
-.az-icon .icon-resource-mover {
+.az-icon.az-icon-resource-mover {
     background-image: url(64/icon-resource-mover.png)
 }
-.az-icon .icon-route-filters {
+.az-icon.az-icon-route-filters {
     background-image: url(64/icon-route-filters.png)
 }
-.az-icon .icon-route-tables {
+.az-icon.az-icon-route-tables {
     background-image: url(64/icon-route-tables.png)
 }
-.az-icon .icon-rtos {
+.az-icon.az-icon-rtos {
     background-image: url(64/icon-rtos.png)
 }
-.az-icon .icon-sap-azure-monitor {
+.az-icon.az-icon-sap-azure-monitor {
     background-image: url(64/icon-sap-azure-monitor.png)
 }
-.az-icon .icon-scale {
+.az-icon.az-icon-scale {
     background-image: url(64/icon-scale.png)
 }
-.az-icon .icon-scheduler {
+.az-icon.az-icon-scheduler {
     background-image: url(64/icon-scheduler.png)
 }
-.az-icon .icon-search-grid {
+.az-icon.az-icon-search-grid {
     background-image: url(64/icon-search-grid.png)
 }
-.az-icon .icon-search-services {
+.az-icon.az-icon-search-services {
     background-image: url(64/icon-search-services.png)
 }
-.az-icon .icon-search {
+.az-icon.az-icon-search {
     background-image: url(64/icon-search.png)
 }
-.az-icon .icon-security-center {
+.az-icon.az-icon-security-center {
     background-image: url(64/icon-security-center.png)
 }
-.az-icon .icon-server-farm {
+.az-icon.az-icon-server-farm {
     background-image: url(64/icon-server-farm.png)
 }
-.az-icon .icon-service-bus {
+.az-icon.az-icon-service-bus {
     background-image: url(64/icon-service-bus.png)
 }
-.az-icon .icon-service-endpoint-policies {
+.az-icon.az-icon-service-endpoint-policies {
     background-image: url(64/icon-service-endpoint-policies.png)
 }
-.az-icon .icon-service-fabric-clusters {
+.az-icon.az-icon-service-fabric-clusters {
     background-image: url(64/icon-service-fabric-clusters.png)
 }
-.az-icon .icon-service-health {
+.az-icon.az-icon-service-health {
     background-image: url(64/icon-service-health.png)
 }
-.az-icon .icon-service-providers {
+.az-icon.az-icon-service-providers {
     background-image: url(64/icon-service-providers.png)
 }
-.az-icon .icon-shared-image-galleries {
+.az-icon.az-icon-shared-image-galleries {
     background-image: url(64/icon-shared-image-galleries.png)
 }
-.az-icon .icon-software-as-a-service {
+.az-icon.az-icon-software-as-a-service {
     background-image: url(64/icon-software-as-a-service.png)
 }
-.az-icon .icon-solutions {
+.az-icon.az-icon-solutions {
     background-image: url(64/icon-solutions.png)
 }
-.az-icon .icon-sql-data-warehouses {
+.az-icon.az-icon-sql-data-warehouses {
     background-image: url(64/icon-sql-data-warehouses.png)
 }
-.az-icon .icon-sql-database {
+.az-icon.az-icon-sql-database {
     background-image: url(64/icon-sql-database.png)
 }
-.az-icon .icon-sql-elastic-pools {
+.az-icon.az-icon-sql-elastic-pools {
     background-image: url(64/icon-sql-elastic-pools.png)
 }
-.az-icon .icon-sql-managed-instance {
+.az-icon.az-icon-sql-managed-instance {
     background-image: url(64/icon-sql-managed-instance.png)
 }
-.az-icon .icon-sql-server {
+.az-icon.az-icon-sql-server {
     background-image: url(64/icon-sql-server.png)
 }
-.az-icon .icon-ssd {
+.az-icon.az-icon-ssd {
     background-image: url(64/icon-ssd.png)
 }
-.az-icon .icon-ssh-keys {
+.az-icon.az-icon-ssh-keys {
     background-image: url(64/icon-ssh-keys.png)
 }
-.az-icon .icon-ssis-lift-and-shift-ir {
+.az-icon.az-icon-ssis-lift-and-shift-ir {
     background-image: url(64/icon-ssis-lift-and-shift-ir.png)
 }
-.az-icon .icon-static-apps {
+.az-icon.az-icon-static-apps {
     background-image: url(64/icon-static-apps.png)
 }
-.az-icon .icon-storage-accounts {
+.az-icon.az-icon-storage-accounts {
     background-image: url(64/icon-storage-accounts.png)
 }
-.az-icon .icon-storage-azure-files {
+.az-icon.az-icon-storage-azure-files {
     background-image: url(64/icon-storage-azure-files.png)
 }
-.az-icon .icon-storage-container {
+.az-icon.az-icon-storage-container {
     background-image: url(64/icon-storage-container.png)
 }
-.az-icon .icon-storage-queue {
+.az-icon.az-icon-storage-queue {
     background-image: url(64/icon-storage-queue.png)
 }
-.az-icon .icon-storage-sync-services {
+.az-icon.az-icon-storage-sync-services {
     background-image: url(64/icon-storage-sync-services.png)
 }
-.az-icon .icon-storsimple-data-managers {
+.az-icon.az-icon-storsimple-data-managers {
     background-image: url(64/icon-storsimple-data-managers.png)
 }
-.az-icon .icon-storsimple-device-managers {
+.az-icon.az-icon-storsimple-device-managers {
     background-image: url(64/icon-storsimple-device-managers.png)
 }
-.az-icon .icon-stream-analytics-jobs {
+.az-icon.az-icon-stream-analytics-jobs {
     background-image: url(64/icon-stream-analytics-jobs.png)
 }
-.az-icon .icon-subscriptions {
+.az-icon.az-icon-subscriptions {
     background-image: url(64/icon-subscriptions.png)
 }
-.az-icon .icon-system-topic {
+.az-icon.az-icon-system-topic {
     background-image: url(64/icon-system-topic.png)
 }
-.az-icon .icon-table {
+.az-icon.az-icon-table {
     background-image: url(64/icon-table.png)
 }
-.az-icon .icon-tag {
+.az-icon.az-icon-tag {
     background-image: url(64/icon-tag.png)
 }
-.az-icon .icon-tags {
+.az-icon.az-icon-tags {
     background-image: url(64/icon-tags.png)
 }
-.az-icon .icon-template-specs {
+.az-icon.az-icon-template-specs {
     background-image: url(64/icon-template-specs.png)
 }
-.az-icon .icon-tfs-vc-repository {
+.az-icon.az-icon-tfs-vc-repository {
     background-image: url(64/icon-tfs-vc-repository.png)
 }
-.az-icon .icon-time-series-data-sets {
+.az-icon.az-icon-time-series-data-sets {
     background-image: url(64/icon-time-series-data-sets.png)
 }
-.az-icon .icon-time-series-insights-access-policies {
+.az-icon.az-icon-time-series-insights-access-policies {
     background-image: url(64/icon-time-series-insights-access-policies.png)
 }
-.az-icon .icon-time-series-insights-environments {
+.az-icon.az-icon-time-series-insights-environments {
     background-image: url(64/icon-time-series-insights-environments.png)
 }
-.az-icon .icon-time-series-insights-event-sources {
+.az-icon.az-icon-time-series-insights-event-sources {
     background-image: url(64/icon-time-series-insights-event-sources.png)
 }
-.az-icon .icon-toolbox {
+.az-icon.az-icon-toolbox {
     background-image: url(64/icon-toolbox.png)
 }
-.az-icon .icon-traffic-manager-profiles {
+.az-icon.az-icon-traffic-manager-profiles {
     background-image: url(64/icon-traffic-manager-profiles.png)
 }
-.az-icon .icon-translator-text {
+.az-icon.az-icon-translator-text {
     background-image: url(64/icon-translator-text.png)
 }
-.az-icon .icon-universal-print {
+.az-icon.az-icon-universal-print {
     background-image: url(64/icon-universal-print.png)
 }
-.az-icon .icon-updates {
+.az-icon.az-icon-updates {
     background-image: url(64/icon-updates.png)
 }
-.az-icon .icon-user-privacy {
+.az-icon.az-icon-user-privacy {
     background-image: url(64/icon-user-privacy.png)
 }
-.az-icon .icon-user-subscriptions {
+.az-icon.az-icon-user-subscriptions {
     background-image: url(64/icon-user-subscriptions.png)
 }
-.az-icon .icon-users {
+.az-icon.az-icon-users {
     background-image: url(64/icon-users.png)
 }
-.az-icon .icon-versions {
+.az-icon.az-icon-versions {
     background-image: url(64/icon-versions.png)
 }
-.az-icon .icon-virtual-clusters {
+.az-icon.az-icon-virtual-clusters {
     background-image: url(64/icon-virtual-clusters.png)
 }
-.az-icon .icon-virtual-machine {
+.az-icon.az-icon-virtual-machine {
     background-image: url(64/icon-virtual-machine.png)
 }
-.az-icon .icon-virtual-network-gateways {
+.az-icon.az-icon-virtual-network-gateways {
     background-image: url(64/icon-virtual-network-gateways.png)
 }
-.az-icon .icon-virtual-networks {
+.az-icon.az-icon-virtual-networks {
     background-image: url(64/icon-virtual-networks.png)
 }
-.az-icon .icon-virtual-wans {
+.az-icon.az-icon-virtual-wans {
     background-image: url(64/icon-virtual-wans.png)
 }
-.az-icon .icon-vm-scale-sets {
+.az-icon.az-icon-vm-scale-sets {
     background-image: url(64/icon-vm-scale-sets.png)
 }
-.az-icon .icon-web-environment {
+.az-icon.az-icon-web-environment {
     background-image: url(64/icon-web-environment.png)
 }
-.az-icon .icon-web-slots {
+.az-icon.az-icon-web-slots {
     background-image: url(64/icon-web-slots.png)
 }
-.az-icon .icon-web-test {
+.az-icon.az-icon-web-test {
     background-image: url(64/icon-web-test.png)
 }
-.az-icon .icon-website-power {
+.az-icon.az-icon-website-power {
     background-image: url(64/icon-website-power.png)
 }
-.az-icon .icon-website-staging {
+.az-icon.az-icon-website-staging {
     background-image: url(64/icon-website-staging.png)
 }
-.az-icon .icon-windows-virtual-desktop {
+.az-icon.az-icon-windows-virtual-desktop {
     background-image: url(64/icon-windows-virtual-desktop.png)
 }
-.az-icon .icon-workbooks {
+.az-icon.az-icon-workbooks {
     background-image: url(64/icon-workbooks.png)
 }
-.az-icon .icon-workflow {
+.az-icon.az-icon-workflow {
     background-image: url(64/icon-workflow.png)
 }
-.az-icon .icon-workspaces {
+.az-icon.az-icon-workspaces {
     background-image: url(64/icon-workspaces.png)
 }
