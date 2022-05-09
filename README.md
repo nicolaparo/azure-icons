@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="azure-icons.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/nicolaparo/azure-icons/main/azure-icons.css">
 
 # Azure Icons
 
